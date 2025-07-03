@@ -5,6 +5,10 @@ h1 {
     font-family: 'Roboto Slab Black', sans-serif;
 }
 
+h2 {
+    font-family: 'Roboto Slab SemiBold', sans-serif;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
@@ -15,5 +19,9 @@ body {
 }
 
 footer {
+    font-size: 0.8rem;
+}
+
+#note {
     font-size: 0.8rem;
 }
