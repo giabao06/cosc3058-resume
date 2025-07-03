@@ -11,11 +11,55 @@
               integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
               crossorigin="anonymous"
         >
+
+        <!-- Own CSS -->
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="container mt-5">
-
+        <header>
+            <div class="container-xl mt-3" id="navbar">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbar-expand">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RMIT_University_Logo.svg/2880px-RMIT_University_Logo.svg.png"
+                                     alt="RMIT Logo" height="50">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#whoami">Who am I?</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#skills">My IT Skills</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#projects">What I've done</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="container-xl">
+            <div class="row text-center pt-2 mb-2">
+                <h1>Bao Nguyen's <i>(simpler)</i> Resume</h1>
+            </div>
         </div>
+        <footer>
+            <div class="container-xl bg-light text-center text-lg-start">
+                <div class="row text-center pt-3">
+                    <p>Made with ♥️ by giabao06, with <a href="https://www.jetbrains.com/webstorm/">WebStorm</a> (thanks JetBrains) and <a href="https://getbootstrap.com">Bootstrap CSS</a>.<br>
+                    See the <a href="https://github.com/giabao06/cosc3058-resume">Source code</a>, or go to my <a href="https://giabao06.xyz">Next.js Homepage</a></p>
+                </div>
+            </div>
+        </footer>
+
 
     <!-- Bootstrap CSS (JS part) -->
         <script
