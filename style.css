@@ -9,6 +9,10 @@ h2 {
     font-family: 'Roboto Slab SemiBold', sans-serif;
 }
 
+h5 {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
