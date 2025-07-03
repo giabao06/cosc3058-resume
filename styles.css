@@ -1,0 +1,6 @@
+/* Import our custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+h1 {
+    font-family: 'Roboto Slab Black', sans-serif;
+}
