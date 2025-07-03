@@ -25,3 +25,8 @@ footer {
 #note {
     font-size: 0.8rem;
 }
+
+#pfp {
+    display: block;
+    margin: auto;
+}
