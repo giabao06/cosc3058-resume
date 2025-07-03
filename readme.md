@@ -1,6 +1,6 @@
 # what's this?
 
-`COSC3058` *Web Prgramming Studio* personal website competition thing 
+`COSC3058` *Web Prgramming Bootcamp* personal website competition thing 
 
 ~~and my playground for bootstrap css, thanks COSC3060~~
 
